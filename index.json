@@ -1,0 +1,102 @@
+[
+    {
+        "siNo":1,
+        "name":"RICE",
+        "quantity":10,
+        "unit":"Kilo-gram",
+        "department":"food item",
+        "notes":"pavizham rice 200rs"
+
+
+    },
+    {
+        "siNo":2,
+        "name":"ATTA",
+        "quantity":5,
+        "unit":"Kilo-gram",
+        "department":"food item",
+        "notes":"ashirvad atta 300rs"
+
+
+    },
+    {
+        "siNo":3,
+        "name":"SALT",
+        "quantity":1,
+        "unit":"Kilo-gram",
+        "department":"food item",
+        "notes":"tata salt "
+
+
+    },
+    {
+        "siNo":4,
+        "name":"SUGAR",
+        "quantity":1,
+        "unit":"kilo-gram",
+        "department":"food item",
+        "notes":"tata sugar"
+
+
+    },
+    {
+        "siNo":5,
+        "name":"NOTE BOOK",
+        "quantity":3,
+        "unit":"Number",
+        "department":"stationery",
+        "notes":"classmate notebooks [ruled]"
+
+
+    },
+    {
+        "siNo":6,
+        "name":"BALL PEN",
+        "quantity":2,
+        "unit":"Number",
+        "department":"stationery",
+        "notes":"black ink preferred"
+
+
+    },
+    {
+        "siNo":7,
+        "name":"SOAP",
+        "quantity":1,
+        "unit":"Number",
+        "department":"health products",
+        "notes":"laminated covering could be better"
+
+
+    },
+    {
+        "siNo":8,
+        "name":"SANITIZER",
+        "quantity":3,
+        "unit":"Number",
+        "department":"health products",
+        "notes":"make sure the alchohol content does not exceed 5%"
+
+
+    },
+    {
+        "siNo":9,
+        "name":"MASK",
+        "quantity":10,
+        "unit":"Number",
+        "department":"health products",
+        "notes":"Buy reusable masks"
+
+
+    },
+    {
+        "siNo":10,
+        "name":"WASHING POWDER",
+        "quantity":1,
+        "unit":"Number",
+        "department":"health products",
+        "notes":"henko"
+
+
+    }
+]

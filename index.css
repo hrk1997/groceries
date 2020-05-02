@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+}
+h1{
+    color: #222;
+    margin-bottom: -37px;
+    margin-top: -39px;
+}
+.jumboTronBg{
+    background-image: linear-gradient(125deg,#37a802,#05acc2,#0b6fb1);
+  background-size: 400% 400%;
+  animation: bganimation 5s infinite;
+}
+
+.box select {
+    background-color: #35af31;
+    color: #222;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+.box::before {
+    /* content: "\f13a"; */
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+.box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .box select option {
+    padding: 30px;
+  }
+
+  @import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+}
+.rwd-table tr {
+  border-top: 1px solid red;
+  border-bottom: 1px solid orange;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+.rwd-table {
+    /* background: #34495E; */
+    background: black;
+    color: #28a745;
+    border-radius: .4em;
+    overflow: hidden;
+  }
+  .rwd-table tr {
+    border-color: #28A863;
+  }
+  .rwd-table th, .rwd-table td {
+    margin: .5em 1em;
+  }
+  @media (min-width: 480px) {
+    .rwd-table th, .rwd-table td {
+      padding: 1em !important;
+    }
+  }
+  .rwd-table th, .rwd-table td:before {
+    color:  #35af31;
+  }
